@@ -20,13 +20,13 @@ function App() {
        
     </div>
     <div className='flex'>
-        <div className='font-bold text-sm'>
+        <div className='font-bold text-sm text-slate-500'>
         <FaRegClock />
         </div>
-        <div className='font-bold font-Lato text-sm'>
+        <div className='font-bold font-Lato text-sm text-slate-500'>
           Last Login time : 
         </div>
-        <div className='text-sm font-Lato'><LastVisit/></div>
+        <div className='text-sm font-Lato text-slate-500'><LastVisit/></div>
        </div>
     </div>
    
