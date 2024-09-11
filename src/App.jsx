@@ -63,7 +63,7 @@ function App() {
   </div>
 </div>
 
-<div className="relative mt-6 px-4">
+<div className="relative mt-9 px-4">
   <label htmlFor="dropdown1" className="block text-[18px] text-slate-600 mb-2">
     Grievance Type*
   </label>
@@ -78,7 +78,7 @@ function App() {
     </div>
   </div>
   
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-3">
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
     Grievance Classification*
   </label>
   <div className="relative">
