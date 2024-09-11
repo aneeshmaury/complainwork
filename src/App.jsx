@@ -30,6 +30,11 @@ function App() {
         <div className='text-sm font-Lato text-slate-700 ml-1'><LastVisit/></div>
        </div>
     </div>
+<div>
+<div className='bg-green-500 '>Well done! Your Grievance has been successfully lodged and your docket number:</div>
+
+</div>
+
     </div>
    
    
