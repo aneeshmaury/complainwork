@@ -1,6 +1,8 @@
 import React from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa";
+import { FaRegClock } from "react-icons/fa";
+import LastVisit from './time';
 
 
 function App() {
@@ -14,7 +16,17 @@ function App() {
 </div>
 <div className='2xl text-slate-300' ><FaCaretDown /></div>
        </div>
+       
     </div>
+    <div>
+        <div>
+        <FaRegClock />
+        </div>
+        <div>
+          Last Login time:
+        </div>
+        <div><LastVisit/></div>
+       </div>
     </div>
    
   )
