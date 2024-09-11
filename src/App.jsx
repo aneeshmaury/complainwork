@@ -8,7 +8,8 @@ import "./App.css"
 
 function App() {
   return (
-    <div className='mt-7 px-3'>
+    <div>
+       <div className=' px-3 bg-white pt-8'>
        <div className='flex justify-between'>
       <div className='font-bolder text-[40px] text-slate-300' ><IoReorderThreeOutline /></div>
        <div className='flex items-center gap-2'>
@@ -29,6 +30,8 @@ function App() {
         <div className='text-sm font-Lato text-slate-700 ml-1'><LastVisit/></div>
        </div>
     </div>
+    </div>
+   
    
   )
 }
