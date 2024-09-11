@@ -53,21 +53,22 @@ function App() {
       <div className='bg-white mx-5 mt-5 rounded-md'>
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
-        <div className='bg-[#60a160]   ml-2 text-md rounded-md px-2 py-4 flex justify-between'>
-          <div className='text-white w-[270px]'>
-            <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
-            {randomNumber && <span className="font-bold"> {randomNumber}</span>}
-          </div>
-          <div className='text-white text-xl'>
-            <RxCross2 />
-          </div>
-        </div>
-        <div className="relative mt-6 px-4">
-  <label htmlFor="dropdown" className="block text-[18px] text-slate-700 mb-2">
+        <div className='bg-[#60a160] ml-2 text-md rounded-md px-2 py-4 flex justify-between'>
+  <div className='text-white w-[270px]'>
+    <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
+    {randomNumber && <span className="font-bold"> {randomNumber}</span>}
+  </div>
+  <div className='text-white text-xl'>
+    <RxCross2 />
+  </div>
+</div>
+
+<div className="relative mt-6 px-4">
+  <label htmlFor="dropdown1" className="block text-[18px] text-slate-700 mb-2">
     Grievance Type*
   </label>
-  <div className="relative ">
-    <select id="dropdown" className="border  bg-transparent rounded mt-[-8px] p-2 text-[18px] text-slate-700 w-full appearance-none">
+  <div className="relative">
+    <select id="dropdown1" className="border border-slate-800 bg-transparent rounded mt-[-8px] p-2 text-[18px] text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
@@ -76,20 +77,21 @@ function App() {
       <FaCaretDown className="text-slate-700" />
     </div>
   </div>
-  <label htmlFor="dropdown" className="block text-[18px] text-slate-700 mb-2 mt-3 ">
+  
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-700 mb-2 mt-3">
     Grievance Classification*
   </label>
-  <div className="relative ">
-    <select id="dropdown" className="border bg-none bg-transparent rounded p-2 mt-[-8px] text-[18px] text-slate-700 w-full appearance-none">
+  <div className="relative">
+    <select id="dropdown2" className="border border-slate-800 bg-transparent rounded p-2 mt-[-8px] text-[18px] text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
-      
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
       <FaCaretDown className="text-slate-700" />
     </div>
   </div>
 </div>
+
 
       </div>
     </div>
