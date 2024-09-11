@@ -90,6 +90,30 @@ function App() {
       <FaCaretDown className="text-slate-300" />
     </div>
   </div>
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+    State*
+  </label>
+  <div className="relative">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+      <option value="option1">SELECT STATE</option>
+      <option value="option2">UTTAR PRADESH</option>
+    </select>
+    <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+      <FaCaretDown className="text-slate-300" />
+    </div>
+  </div>
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+    Purchase City*
+  </label>
+  <div className="relative">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+      <option value="option1">Select City</option>
+      <option value="option2">NOIDA</option>
+    </select>
+    <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+      <FaCaretDown className="text-slate-300" />
+    </div>
+  </div>
 </div>
 
 
