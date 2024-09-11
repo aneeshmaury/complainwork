@@ -3,6 +3,7 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa";
 import { FaRegClock } from "react-icons/fa";
 import LastVisit from './time';
+import "./App.css"
 
 
 function App() {
@@ -22,10 +23,10 @@ function App() {
         <div className='font-bold text-sm'>
         <FaRegClock />
         </div>
-        <div className='font-bold text-sm'>
+        <div className='font-bold font-Lato text-sm'>
           Last Login time : 
         </div>
-        <div className='text-sm'><LastVisit/></div>
+        <div className='text-sm font-Lato'><LastVisit/></div>
        </div>
     </div>
    
