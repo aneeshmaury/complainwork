@@ -11,7 +11,7 @@ import "./App.css"
 function App() {
   return (
     <div>
-       <div className=' px-3 bg-white pt-8'>
+       <div className=' px-3 bg-white pt-8 pb-4'>
        <div className='flex justify-between'>
       <div className='font-bolder text-[40px] text-slate-300' ><IoReorderThreeOutline /></div>
        <div className='flex items-center gap-2'>
@@ -35,7 +35,7 @@ function App() {
 <div className='bg-white mx-3 mt-4'>
 
 <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
-<div className='bg-green-500 mx-1 text-md rounded-md px-2 py-4  flex justify-between'>
+<div className='bg-green-500 ml-2 text-md rounded-md px-2 py-4  flex justify-between'>
   <div className=' text-white w-[270px]'><span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:</div>
 <div className='text-white text-xl'><RxCross2 /></div>
 </div>
