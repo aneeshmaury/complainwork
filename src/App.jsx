@@ -20,7 +20,7 @@ function App() {
        
     </div>
     <div className='flex'>
-        <div className='font-bold m-1 text-sm text-slate-800'>
+        <div className='font-bold mb-1 mr-1 text-sm text-slate-800'>
         <FaRegClock />
         </div>
         <div className='font-bold font-Lato text-sm text-slate-800'>
