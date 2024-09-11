@@ -63,11 +63,11 @@ function App() {
           </div>
         </div>
         <div className="relative mt-6 px-4">
-  <label htmlFor="dropdown" className="block text-sm text-slate-700 mb-2">
+  <label htmlFor="dropdown" className="block text-md text-slate-700 mb-2">
     Grievance Type*
   </label>
   <div className="relative ">
-    <select id="dropdown" className="border rounded mt-[-8px] p-2 text-sm text-slate-700 w-full appearance-none">
+    <select id="dropdown" className="border  rounded mt-[-8px] p-2 text-md text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
@@ -76,11 +76,11 @@ function App() {
       <FaCaretDown className="text-slate-700" />
     </div>
   </div>
-  <label htmlFor="dropdown" className="block text-sm text-slate-700 mb-2 mt-3 ">
+  <label htmlFor="dropdown" className="block text-md text-slate-700 mb-2 mt-3 ">
     Grievance Classification*
   </label>
   <div className="relative ">
-    <select id="dropdown" className="border rounded p-2 mt-[-8px] text-sm text-slate-700 w-full appearance-none">
+    <select id="dropdown" className="border bg-none rounded p-2 mt-[-8px] text-md text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
       
