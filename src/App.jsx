@@ -53,7 +53,7 @@ function App() {
       <div className='bg-white mx-5 mt-4 rounded-md'>
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
-        <div className='bg-green-400 ml-2 text-md rounded-md px-2 py-4 flex justify-between'>
+        <div className='bg-green-700 ml-2 text-md rounded-md px-2 py-4 flex justify-between'>
           <div className='text-white w-[270px]'>
             <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
             {randomNumber && <span className="font-bold"> {randomNumber}</span>}
