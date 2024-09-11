@@ -1,8 +1,13 @@
 import React from 'react'
+import { IoReorderThreeOutline } from "react-icons/io5";
+
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <div className='font-bolder text-3xl'><IoReorderThreeOutline /></div>
+        <div className='font-bold' style={{ color: 'rgb(130, 124, 161)' }}>AK</div>
+    </div>
   )
 }
 
