@@ -35,9 +35,9 @@ function App() {
 <div className='bg-white mx-3 mt-4'>
 
 <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
-<div className='bg-green-500 mx-1 text-sm rounded-md px-2 py-4  flex justify-between'>
-  <div className=' text-white w-[250px]'><span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:</div>
-<div className='text-white'><RxCross2 /></div>
+<div className='bg-green-500 mx-1 text-md rounded-md px-2 py-4  flex justify-between'>
+  <div className=' text-white w-[270px]'><span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:</div>
+<div className='text-white text-xl'><RxCross2 /></div>
 </div>
 
 </div>
