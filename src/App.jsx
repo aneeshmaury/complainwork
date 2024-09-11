@@ -114,6 +114,30 @@ function App() {
       <FaCaretDown className="text-slate-300" />
     </div>
   </div>
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+    Sector/Industry*
+  </label>
+  <div className="relative">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+      <option value="option1">Digital Payment Modes</option>
+      <option value="option2">UTTAR PRADESH</option>
+    </select>
+    <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+      <FaCaretDown className="text-slate-300" />
+    </div>
+  </div>
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+    Category*
+  </label>
+  <div className="relative pb-44">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+      <option value="option1">BHIM UPI/AEPS/USSD/SMS</option>
+      <option value="option2">UTTAR PRADESH</option>
+    </select>
+    <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+      <FaCaretDown className="text-slate-300" />
+    </div>
+  </div>
 </div>
 
 
