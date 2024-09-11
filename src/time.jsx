@@ -16,10 +16,18 @@ function LastVisit() {
     localStorage.setItem("lastVisit", Date.now().toString());
   }, []);
 
+  // Format the date as YYYY-MM-DD
+  const formatDate = (date) => {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  };
+
   return (
     <div>
       {lastVisit ? (
-        <p>: {lastVisit.toLocaleString()}</p>
+        <p> {formatDate(lastVisit)}</p>
       ) : (
         <p>This is your first time visiting!</p>
       )}
