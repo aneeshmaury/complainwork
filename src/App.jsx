@@ -18,14 +18,14 @@ function App() {
        </div>
        
     </div>
-    <div>
-        <div>
+    <div className='flex'>
+        <div className='font-bold text-sm'>
         <FaRegClock />
         </div>
-        <div>
-          Last Login time:
+        <div className='font-bold text-sm'>
+          Last Login time : 
         </div>
-        <div><LastVisit/></div>
+        <div className='text-sm'><LastVisit/></div>
        </div>
     </div>
    

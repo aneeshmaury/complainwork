@@ -30,7 +30,7 @@ function LastVisit() {
   return (
     <div>
       {lastVisit ? (
-        <p>Your last visit was on: {formatDateTime(lastVisit)}</p>
+        <p> {formatDateTime(lastVisit)}</p>
       ) : (
         <p>This is your first time visiting!</p>
       )}
