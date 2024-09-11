@@ -64,30 +64,30 @@ function App() {
 </div>
 
 <div className="relative mt-6 px-4">
-  <label htmlFor="dropdown1" className="block text-[18px] text-slate-700 mb-2">
+  <label htmlFor="dropdown1" className="block text-[18px] text-slate-600 mb-2">
     Grievance Type*
   </label>
   <div className="relative">
-    <select id="dropdown1" className="border border-slate-800 bg-transparent rounded mt-[-8px] p-2 text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] p-2 text-[18px] text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-700" />
+      <FaCaretDown className="text-slate-300" />
     </div>
   </div>
   
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-700 mb-2 mt-3">
+  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-3">
     Grievance Classification*
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-800 bg-transparent rounded p-2 mt-[-8px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded p-2 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-700" />
+      <FaCaretDown className="text-slate-300" />
     </div>
   </div>
 </div>
