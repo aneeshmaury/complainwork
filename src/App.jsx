@@ -1,6 +1,8 @@
 import React from 'react'
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa";
+import { RxCross2 } from "react-icons/rx";
+
 import { FaRegClock } from "react-icons/fa";
 import LastVisit from './time';
 import "./App.css"
@@ -30,8 +32,13 @@ function App() {
         <div className='text-sm font-Lato text-slate-700 ml-1'><LastVisit/></div>
        </div>
     </div>
-<div>
-<div className='bg-green-500 '>Well done! Your Grievance has been successfully lodged and your docket number:</div>
+<div className='bg-white mx-3 mt-4'>
+
+<div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
+<div className='bg-green-500 mx-1 text-sm rounded-md px-2 py-4  flex justify-between'>
+  <div className=' text-white w-[250px]'><span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:</div>
+<div className='text-white'><RxCross2 /></div>
+</div>
 
 </div>
 
