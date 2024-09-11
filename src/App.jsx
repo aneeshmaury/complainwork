@@ -20,7 +20,7 @@ function App() {
        </div>
        
     </div>
-    <div className='flex relative top-[-35px] left-20'>
+    <div className='flex absolute top-9 left-20'>
         <div className='font-bold mb-1 mr-1 text-sm text-slate-700'>
         <FaRegClock />
         </div>
