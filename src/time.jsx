@@ -19,7 +19,7 @@ function LastVisit() {
   return (
     <div>
       {lastVisit ? (
-        <p>Your last visit was on: {lastVisit.toLocaleString()}</p>
+        <p>: {lastVisit.toLocaleString()}</p>
       ) : (
         <p>This is your first time visiting!</p>
       )}
