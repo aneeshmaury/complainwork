@@ -53,12 +53,12 @@ function App() {
       <div className='bg-white mx-5 mt-5 rounded-md'>
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
-        <div className='bg-[#60a160] ml-2 text-md rounded-md px-2 py-4 flex justify-between'>
-  <div className='text-white w-[270px]'>
+        <div className='bg-[#60a160] ml-2 text-[13px] rounded-md px-2 py-4 flex justify-between'>
+  <div className='text-white w-[400px]'>
     <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
-    {randomNumber && <span className="font-bold"> {randomNumber}</span>}
+    {randomNumber && <span className="text-sm"> {randomNumber}</span>}
   </div>
-  <div className='text-white text-xl'>
+  <div className='text-white text-sm'>
     <RxCross2 />
   </div>
 </div>
