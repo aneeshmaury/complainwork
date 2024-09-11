@@ -50,7 +50,7 @@ function App() {
         </div>
       </div>
       
-      <div className='bg-white mx-5 mt-4 rounded-md'>
+      <div className='bg-white mx-5 mt-5 rounded-md'>
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
         <div className='bg-[#60a160]   ml-2 text-md rounded-md px-2 py-4 flex justify-between'>
@@ -62,6 +62,35 @@ function App() {
             <RxCross2 />
           </div>
         </div>
+        <div className="relative mt-6 px-4">
+  <label htmlFor="dropdown" className="block text-sm text-slate-700 mb-2">
+    Grievance Type*
+  </label>
+  <div className="relative ">
+    <select id="dropdown" className="border rounded mt-[-8px] p-2 text-sm text-slate-700 w-full appearance-none">
+      <option value="option1">Grievance</option>
+      <option value="option2">Query</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+      <FaCaretDown className="text-slate-700" />
+    </div>
+  </div>
+  <label htmlFor="dropdown" className="block text-sm text-slate-700 mb-2 mt-3 ">
+    Grievance Classification*
+  </label>
+  <div className="relative ">
+    <select id="dropdown" className="border rounded p-2 mt-[-8px] text-sm text-slate-700 w-full appearance-none">
+      <option value="option1">Select</option>
+      <option value="option2">Services</option>
+      
+    </select>
+    <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+      <FaCaretDown className="text-slate-700" />
+    </div>
+  </div>
+</div>
+
       </div>
     </div>
   );
