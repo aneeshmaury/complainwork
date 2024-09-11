@@ -76,7 +76,7 @@ function App() {
       <FaCaretDown className="text-slate-700" />
     </div>
   </div>
-  <label htmlFor="dropdown" className="block text-[16px] text-slate-700 mb-2 mt-3 ">
+  <label htmlFor="dropdown" className="block text-[18px] text-slate-700 mb-2 mt-3 ">
     Grievance Classification*
   </label>
   <div className="relative ">
