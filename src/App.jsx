@@ -68,7 +68,7 @@ function App() {
     Grievance Type*
   </label>
   <div className="relative">
-    <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] p-2 text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] py-2 px-4 text-[18px] text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
@@ -82,7 +82,7 @@ function App() {
     Grievance Classification*
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded p-2 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
     </select>
