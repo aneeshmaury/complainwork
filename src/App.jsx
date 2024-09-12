@@ -50,25 +50,25 @@ function App() {
         </div>
       </div>
       
-      <div className='bg-white mx-5 mt-5 rounded-md'>
+      <div className='bg-white mx-5 mt-5 rounded-[4px]'>
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
-        <div className='bg-[#28a745] ml-2 text-[13px] rounded-md px-2 py-4 flex justify-between'>
-  <div className='text-white w-[400px]'>
+        <div className='bg-[#28a745] ml-2 text-[12px] rounded-[4px] px-2 py-3 flex '>
+  <div className='text-white w-[450px]'>
     <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
     {randomNumber && <span className="text-sm"> {randomNumber}</span>}
   </div>
-  <div className='text-white text-sm'>
+  <div className='text-white text-[12px] pr-4 pt-1 '>
     <RxCross2 />
   </div>
 </div>
 
 <div className="relative mt-9 px-4">
-  <label htmlFor="dropdown1" className="block text-[18px] text-slate-600 mb-2">
+  <label htmlFor="dropdown1" className="block text-[14px] text-slate-600 mb-2">
     Grievance Type*
   </label>
   <div className="relative">
-    <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] py-2 px-4 text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] py-2 px-4 text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
@@ -78,11 +78,11 @@ function App() {
     </div>
   </div>
   
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+  <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
     Grievance Classification*
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
     </select>
@@ -90,11 +90,11 @@ function App() {
       <FaCaretDown className="text-slate-300" />
     </div>
   </div>
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+  <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
     State*
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">SELECT STATE</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
@@ -102,11 +102,11 @@ function App() {
       <FaCaretDown className="text-slate-300" />
     </div>
   </div>
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+  <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
     Purchase City*
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Select City</option>
       <option value="option2">NOIDA</option>
     </select>
@@ -114,11 +114,11 @@ function App() {
       <FaCaretDown className="text-slate-300" />
     </div>
   </div>
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+  <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
     Sector/Industry*
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Digital Payment Modes</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
@@ -126,11 +126,11 @@ function App() {
       <FaCaretDown className="text-slate-300" />
     </div>
   </div>
-  <label htmlFor="dropdown2" className="block text-[18px] text-slate-600 mb-2 mt-4">
+  <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
     Category*
   </label>
   <div className="relative pb-44">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[18px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">BHIM UPI/AEPS/USSD/SMS</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
