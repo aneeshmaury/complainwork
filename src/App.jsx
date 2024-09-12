@@ -26,8 +26,8 @@ function App() {
     <div>
       <div className='px-3 bg-white pt-8 pb-4'>
         <div className='flex justify-between'>
-          <div className=' text-[30px] text-slate-300'>
-            <MdOutlineMenu />
+          <div className=' text-[30px] font-bold  text-slate-300'>
+            <  MdOutlineMenu />
           </div>
           <div className='flex items-center gap-1'>
             <div className='font-[1px] text-[20px] bg-slate-100 rounded-full w-[40px] h-[40px] flex items-center justify-center' style={{ color: 'rgb(130, 124, 161)' }}>
