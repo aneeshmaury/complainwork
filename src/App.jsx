@@ -94,7 +94,7 @@ function App() {
     State<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">SELECT STATE</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
@@ -106,7 +106,7 @@ function App() {
     Purchase City<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Select City</option>
       <option value="option2">NOIDA</option>
     </select>
