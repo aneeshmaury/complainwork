@@ -51,7 +51,7 @@ function App() {
         </div>
       </div>
       
-      <div className='border border-slate-200 bg-white mx-5 mt-5 rounded-[4px]'>
+      <div className='border border-slate-200 bg-white mx-5 mt-5 rounded-[4px] pb-44'>
         <div className='text-2xl text-[#24222F] font-bold px-4 py-6'>Grievance Registration Form</div>
         
         <div className='bg-[#44be89] ml-2 text-[14px] rounded-[4px] pl-2 py-3  '>
