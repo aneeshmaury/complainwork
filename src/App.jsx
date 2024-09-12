@@ -68,7 +68,7 @@ function App() {
     Grievance Type<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] py-2 px-4 text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown1" className="border border-blue-400 bg-transparent rounded mt-[-4px] py-2 px-4 text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
@@ -103,7 +103,7 @@ function App() {
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
-    Purchase City*
+    Purchase City<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
     <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
@@ -115,7 +115,7 @@ function App() {
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
-    Sector/Industry*
+    Sector/Industry<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
     <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
@@ -127,7 +127,7 @@ function App() {
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
-    Category*
+    Category<span className='text-red-900'>*</span>
   </label>
   <div className="relative ">
     <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
