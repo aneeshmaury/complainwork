@@ -5,6 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 import { FaRegClock } from "react-icons/fa";
 import LastVisit from './time';
 import "./App.css";
+import { MdOutlineMenu } from 'react-icons/md';
 
 function App() {
   const [randomNumber, setRandomNumber] = useState('');
@@ -26,7 +27,7 @@ function App() {
       <div className='px-3 bg-white pt-8 pb-4'>
         <div className='flex justify-between'>
           <div className='font-bolder text-[40px] text-slate-300'>
-            <IoReorderThreeOutline />
+            <MdOutlineMenu />
           </div>
           <div className='flex items-center gap-1'>
             <div className='font-[1px] text-[20px] bg-slate-100 rounded-full w-[40px] h-[40px] flex items-center justify-center' style={{ color: 'rgb(130, 124, 161)' }}>
