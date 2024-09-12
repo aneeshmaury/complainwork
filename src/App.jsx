@@ -32,7 +32,7 @@ function App() {
             <div className='font-[1px] text-[20px] bg-slate-100 rounded-full w-[40px] h-[40px] flex items-center justify-center' style={{ color: 'rgb(130, 124, 161)' }}>
               AK
             </div>
-            <div className='2xl text-slate-300'>
+            <div className='text-[12px] text-slate-300'>
               <FaCaretDown />
             </div>
           </div>
