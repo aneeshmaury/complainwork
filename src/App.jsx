@@ -65,7 +65,7 @@ function App() {
 
 <div className="relative mt-9 px-4">
   <label htmlFor="dropdown1" className="block text-[14px] font-lato text-slate-600 mb-2">
-    Grievance Type*
+    Grievance Type<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
     <select id="dropdown1" className="border border-slate-600 bg-transparent rounded mt-[-4px] py-2 px-4 text-[14px] text-slate-700 w-full appearance-none">
@@ -79,7 +79,7 @@ function App() {
   </div>
   
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
-    Grievance Classification*
+    Grievance Classification<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
     <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
@@ -91,7 +91,7 @@ function App() {
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
-    State*
+    State<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
     <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
