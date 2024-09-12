@@ -64,7 +64,7 @@ function App() {
 </div>
 
 <div className="relative mt-9 px-4">
-  <label htmlFor="dropdown1" className="block text-[14px] text-slate-600 mb-2">
+  <label htmlFor="dropdown1" className="block text-[14px] lato-regular text-slate-600 mb-2">
     Grievance Type*
   </label>
   <div className="relative">
