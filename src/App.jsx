@@ -54,7 +54,7 @@ function App() {
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
         <div className='bg-[#28a745] ml-2 text-[12px] rounded-[4px] px-2 py-3 flex '>
-  <div className='text-white w-[450px]'>
+  <div className='text-white w-[370px]'>
     <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
     {randomNumber && <span className="text-sm"> {randomNumber}</span>}
   </div>
@@ -129,7 +129,7 @@ function App() {
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
     Category*
   </label>
-  <div className="relative pb-44">
+  <div className="relative ">
     <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">BHIM UPI/AEPS/USSD/SMS</option>
       <option value="option2">UTTAR PRADESH</option>
