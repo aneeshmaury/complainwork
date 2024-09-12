@@ -74,7 +74,7 @@ function App() {
       <option value="option3">Option 3</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-300" />
+      <FaCaretDown className="text-[12px] text-slate-300" />
     </div>
   </div>
   
@@ -87,7 +87,7 @@ function App() {
       <option value="option2">Services</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-300" />
+      <FaCaretDown className="text-[12px] text-slate-300" />
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
@@ -99,7 +99,7 @@ function App() {
       <option value="option2">UTTAR PRADESH</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-300" />
+      <FaCaretDown className="text-[12px] text-slate-300" />
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
@@ -111,7 +111,7 @@ function App() {
       <option value="option2">NOIDA</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-300" />
+      <FaCaretDown className="text-[12px] text-slate-300" />
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
@@ -123,7 +123,7 @@ function App() {
       <option value="option2">UTTAR PRADESH</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-300" />
+      <FaCaretDown className="text-[12px] text-slate-300" />
     </div>
   </div>
   <label htmlFor="dropdown2" className="block text-[14px] text-slate-600 mb-2 mt-4">
@@ -135,7 +135,7 @@ function App() {
       <option value="option2">UTTAR PRADESH</option>
     </select>
     <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-      <FaCaretDown className="text-slate-300" />
+      <FaCaretDown className="text-[12px] text-slate-300" />
     </div>
   </div>
 </div>
