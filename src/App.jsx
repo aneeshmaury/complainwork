@@ -82,7 +82,7 @@ function App() {
     Grievance Classification<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-blue-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
     </select>
@@ -118,7 +118,7 @@ function App() {
     Sector/Industry<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-blue-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Digital Payment Modes</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
