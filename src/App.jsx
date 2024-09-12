@@ -50,7 +50,7 @@ function App() {
         </div>
       </div>
       
-      <div className='bg-white mx-5 mt-5 rounded-[4px]'>
+      <div className='border border-slate-200 bg-white mx-5 mt-5 rounded-[4px]'>
         <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
         
         <div className='bg-[#44be89] ml-2 text-[14px] rounded-[4px] pl-2 py-3  '>
@@ -94,7 +94,7 @@ function App() {
     State<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">SELECT STATE</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
@@ -130,7 +130,7 @@ function App() {
     Category<span className='text-red-900'>*</span>
   </label>
   <div className="relative ">
-    <select id="dropdown2" className="border border-slate-600 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">BHIM UPI/AEPS/USSD/SMS</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
