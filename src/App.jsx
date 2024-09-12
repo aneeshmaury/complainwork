@@ -26,7 +26,7 @@ function App() {
     <div>
       <div className='px-3 bg-white pt-8 pb-4'>
         <div className='flex justify-between'>
-          <div className='font-bolder text-[30px] text-slate-300'>
+          <div className=' text-[30px] text-slate-300'>
             <MdOutlineMenu />
           </div>
           <div className='flex items-center gap-1'>
@@ -42,7 +42,7 @@ function App() {
           <div className='font-bold mb-1 mr-1 text-sm text-slate-700'>
             <FaRegClock />
           </div>
-          <div className='font-bold font-Lato text-sm text-slate-700'>
+          <div className='font-bold font-Lato text-sm text-[#514D6A]'>
             Last Login time :
           </div>
           <div className='text-sm font-Lato text-slate-700 ml-1'>
@@ -52,7 +52,7 @@ function App() {
       </div>
       
       <div className='border border-slate-200 bg-white mx-5 mt-5 rounded-[4px]'>
-        <div className='text-2xl font-bold px-4 py-6'>Grievance Registration Form</div>
+        <div className='text-2xl text-[#24222F] font-bold px-4 py-6'>Grievance Registration Form</div>
         
         <div className='bg-[#44be89] ml-2 text-[14px] rounded-[4px] pl-2 py-3  '>
   <div className='text-white w-[350px] tracking-wide '>
@@ -69,7 +69,7 @@ function App() {
     Grievance Type<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown1" className="border border-blue-400 bg-transparent rounded mt-[-4px] py-2 px-4 text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown1" className="border border-blue-400 bg-transparent rounded mt-[-4px] py-[8px] px-[16px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Grievance</option>
       <option value="option2">Query</option>
       <option value="option3">Option 3</option>
@@ -83,7 +83,7 @@ function App() {
     Grievance Classification<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-blue-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-blue-400 bg-transparent rounded py-[8px] px-[16px] mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Select</option>
       <option value="option2">Services</option>
     </select>
@@ -95,7 +95,7 @@ function App() {
     State<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-[8px] px-[16px] mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">SELECT STATE</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
@@ -107,7 +107,7 @@ function App() {
     Purchase City<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-[8px] px-[16px] mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Select City</option>
       <option value="option2">NOIDA</option>
     </select>
@@ -119,7 +119,7 @@ function App() {
     Sector/Industry<span className='text-red-900'>*</span>
   </label>
   <div className="relative">
-    <select id="dropdown2" className="border border-blue-400 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-blue-400 bg-transparent rounded py-[8px] px-[16px] mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">Digital Payment Modes</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
@@ -131,7 +131,7 @@ function App() {
     Category<span className='text-red-900'>*</span>
   </label>
   <div className="relative ">
-    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-2 px-4 mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
+    <select id="dropdown2" className="border border-slate-200 bg-transparent rounded py-[8px] px-[16px] mt-[-4px] text-[14px] text-slate-700 w-full appearance-none">
       <option value="option1">BHIM UPI/AEPS/USSD/SMS</option>
       <option value="option2">UTTAR PRADESH</option>
     </select>
