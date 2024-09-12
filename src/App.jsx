@@ -58,7 +58,7 @@ function App() {
     <span className='font-semibold'>Well done!</span> Your Grievance has been successfully lodged and your docket number:
     {randomNumber && <span className="text-sm"> {randomNumber}</span>}
   </div>
-  <div className='absolute top-[205px] left-[376px] right text-white text-[12px] '>
+  <div className='absolute top-[205px] left-[376px] font-bold right text-white text-[12px] '>
     <RxCross2 />
   </div>
 </div>
