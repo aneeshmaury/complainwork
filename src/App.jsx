@@ -42,7 +42,7 @@ function App() {
             <FaRegClock />
           </div>
           <div className='font-bold font-Lato text-sm text-slate-700'>
-            Last Login time:
+            Last Login time :
           </div>
           <div className='text-sm font-Lato text-slate-700 ml-1'>
             <LastVisit />
